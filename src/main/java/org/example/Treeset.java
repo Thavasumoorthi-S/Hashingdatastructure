@@ -16,9 +16,9 @@ public class Treeset {
         treeSet.add("computerscience");
         logger.info(""+treeSet.clone());
         logger.info(treeSet.first());
-        logger.info(treeSet.last());
-        logger.info(""+treeSet.size());
-        logger.info(""+treeSet.isEmpty());
+        logger.log(Level.INFO,()->""+treeSet.last());
+        logger.log(Level.INFO,()->""+treeSet.size());
+        logger.log(Level.INFO,()->""+treeSet.isEmpty());
         treeSet.clear();
     }
 }
