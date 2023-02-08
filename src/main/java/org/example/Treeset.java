@@ -12,7 +12,7 @@ public class Treeset {
         treeSet.add("Maths");
         treeSet.add("Science");
         treeSet.add("computerscience");
-        logger.info(""+treeSet.clone());
+        logger.log(Level.INFO,()->""+treeSet.clone());
         logger.log(Level.INFO,()->""+treeSet.first());
         logger.log(Level.INFO,()->""+treeSet.last());
         logger.log(Level.INFO,()->""+treeSet.size());
