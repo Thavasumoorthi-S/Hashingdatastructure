@@ -34,8 +34,8 @@ class Hashset {
         Hashset h5=new Hashset("moorthi",34);
         Hashset h6=new Hashset("rajesh",37);
         Logger logger=Logger.getLogger("com-api-jar");
-        logger.log(Level.INFO,""+h1);
-        logger.log(Level.INFO,""+h2);
+        logger.log(Level.INFO,()->""+h1);
+        logger.log(Level.INFO,()->""+h2);
         hset.add(h1);
         hset.add(h2);
         hset.add(h3);

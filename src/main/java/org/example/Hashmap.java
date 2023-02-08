@@ -17,14 +17,14 @@ public class Hashmap {
         map.put(7,"Thavasu");
         logger.info(map.get(7));
         logger.info(map.get(6));
-        logger.info(""+map.clone());
+        logger.log(Level.INFO,()->""+map.clone());
         logger.info(""+map.isEmpty());
-        logger.info(map.replace(4,"kavin"));
+        logger.log(Level.INFO,()->""+map.replace(4,"kavin"));
         logger.info(map.get(4));
         logger.info(""+map.getClass());
-        logger.info(map.remove(2));
+        logger.log(Level.INFO,()->""+map.remove(2));
         logger.info(map.get(2));
         map.clear();
-        logger.info(""+map.size());
+        logger.log(Level.INFO,()->""+map.size());
     }
 }
