@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1ab56a4e-fe99-4a45-a2bc-b1a3aed96c40" name="Changes" comment="first commit" />
+    <list default="true" id="1ab56a4e-fe99-4a45-a2bc-b1a3aed96c40" name="Changes" comment="first commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,7 +44,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/Tringapps-User8/IdeaProjects/LinkedListex"
+    "last_opened_file_path": "C:/Users/Tringapps-User8/IdeaProjects/Hashingdatastructure"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -50,7 +52,7 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Treeset">
+  <component name="RunManager" selected="Application.Hashset">
     <configuration name="Hashmap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Hashmap" />
       <module name="Hashingdatastructure" />
@@ -92,9 +94,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Hashset" />
         <item itemvalue="Application.Treeset" />
         <item itemvalue="Application.Hashmap" />
-        <item itemvalue="Application.Hashset" />
       </list>
     </recent_temporary>
   </component>
@@ -114,7 +116,21 @@
       <option name="project" value="LOCAL" />
       <updated>1675840811189</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="first commit">
+      <created>1675841570813</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1675841570813</updated>
+    </task>
+    <task id="LOCAL-00003" summary="first commit">
+      <created>1675841722022</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1675841722022</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

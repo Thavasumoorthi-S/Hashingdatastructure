@@ -22,7 +22,8 @@ class Hashset {
     }
     public void studentdetails()
     {
-        logger.info("StudentName :"+this.name+"; StudentId :"+this.id);
+        String ans="StudentName :"+this.name+"; StudentId :"+this.id;
+        logger.log(Level.INFO,()->""+ans);
     }
     public static void main(String[] args)
     {
@@ -42,7 +43,7 @@ class Hashset {
         hset.add(h4);
         hset.add(h5);
         hset.add(h6);
-        logger.log(Level.INFO,""+hset);
+        logger.log(Level.INFO,()->""+hset);
         for (Hashset hashing : hset) {
             hashing.studentdetails();
         }
